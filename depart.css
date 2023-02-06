@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.menu_bar {
+    background: black;
+    text-align: center;
+    padding:40px;
+}
+.menu_bar p {
+    background:white;
+}
+.btn-field {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    margin top:10px;
+}
+.btn-field button a {
+    background:white;
+}

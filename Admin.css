@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.menu_bar {
+    background: black;
+    text-align: center;
+}
+
+.menu_bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu_bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu_bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu_bar ul li:hover {
+    background: green;
+    border-radius: 3px;
+}

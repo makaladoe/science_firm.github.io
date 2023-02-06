@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>skies_science_firm</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="menu_bar">
+        <ul>
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="us.html">About us</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contacts</a>
+            </li>
+            <li>
+                <a href="#">Location</a>
+            </li>
+            <li>
+                <a href="#">Pricings</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign up</h1>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <p>Lost password?
+                        <a href="#">Click here</a>
+                    </p>
+
+                </div>
+            </form>
+            <div class="btn-field">
+                <button type="button" id="signupBtn"> Sign up</button>
+                <button type="button" class="disable" id="signinBtn"> Sign in</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let signupBtn = document.getElementById(signupBtn);
+        let signinBtn = document.getElementById(signinBtn);
+        let nameField = document.getElementById(nameField);
+        let title = document.getElementById(title);
+        signinBtn.onclick = function() {
+            nameField.style.maxHeight = "0";
+            title.innerHTML = "Sign In"
+            signupBtn.classList.add("disable");
+        }
+    </script>
+
+</body>
+
+</html>
